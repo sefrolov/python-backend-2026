@@ -18,7 +18,7 @@ jobs:
     - name: Build and run docker
       working-directory: hw2
       run: |
-        docker compose up --build -d
+        docker compose up -d postgres
 
     - name: Install dependencies
       working-directory: hw2/hw
